@@ -11,8 +11,8 @@ import unittest
 class TestCases(unittest.TestCase):
     # Part 1
     def test_vowel_count(self):
-        x = "hello"
-        result = hw1.vowel_count(x)
+        z = "hello"
+        result = hw1.vowel_count(z)
         expected = 2
         self.assertEqual(expected, result)
 

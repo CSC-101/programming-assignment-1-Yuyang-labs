@@ -6,12 +6,12 @@ from data import (Price, Rectangle, Book, Circle, Point, Employee)
 
 # Write your functions for each part in the space below
 # Part 1
-def vowel_count(x:str)-> int:
+def vowel_count(z:str)-> int:
     count = 0
     idx = 0
     vowels = "AaEeIiOoUu"
-    while idx < len(x):
-        if x[idx] in vowels:
+    while idx < len(z):
+        if z[idx] in vowels:
             count += 1
         idx += 1
     return count
